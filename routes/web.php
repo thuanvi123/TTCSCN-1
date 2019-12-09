@@ -13,7 +13,9 @@
 
 
 Auth::routes();
-
+Route::get('/homenew', function(){
+    return view("site.master");
+})->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('logout', [ 'as' => 'logout', 'uses' => 'Auth\LogoutController@getLogout']);
 /**

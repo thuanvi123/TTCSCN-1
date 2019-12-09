@@ -2,92 +2,348 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58472ff6-63a3-4993-971a-c91883722bea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/home/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/authen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/authen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/categories-grid-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/categories-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/categories-no-sidebar-2column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/categories-no-sidebar-3column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/categories-no-sidebar-4column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/categories-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/compare.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/contact_process.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/empty-cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/home-carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/home-fixed-menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/home-fullwidth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/home-parallax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/home-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/banner/categories-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/banner/summer-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/blog/from-blog/f-blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/blog/from-blog/f-blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/blog/from-blog/f-blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/blog/from-blog/f-blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/blog/from-blog/f-blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/blog/from-blog/f-blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/fav-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/f-add-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/f-add-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/f-add-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/f-add-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/f-add-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/f-add-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/f-add-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/f-add-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/f-add-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/special-offer-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/feature-add/special-offer-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/fullwidth-item/fullwidth-item-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/fullwidth-item/fullwidth-item-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/fullwidth-item/fullwidth-item-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-carousel/home-c-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-carousel/home-c-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-carousel/home-c-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-carousel/home-c-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-carousel/home-c-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-parallax/parallax-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-parallax/parallax-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-parallax/parallax-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-parallax/parallax-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-slider/2017-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-slider/full-width-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-slider/slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/home-slider/slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/icon/cart-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/icon/close-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/icon/flag-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/icon/world-icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/icon/world-icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/icon/world-icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/icon/world-icon-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/master-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/c-product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/c-product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/c-product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/c-product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/c-product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/c-product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/c-product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/c-product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/c-product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/cart-product/cart-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/cart-product/cart-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/cart-product/cart-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/cart-product/cart-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/compare/compare-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/compare/compare-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/featured-product/f-p-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/featured-product/f-p-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/featured-product/f-p-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/featured-product/f-p-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/featured-product/f-p-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/featured-product/f-p-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/fillter-product/f-product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/four-column/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/four-column/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/four-column/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/four-column/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/l-product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/p-categories-list/product-l-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/p-categories-list/product-l-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/p-categories-list/product-l-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/product-details/p-details-big-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/product-details/p-details-tab-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/product-details/p-details-tab-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/product-details/p-details-tab-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/product-details/p-details-tab-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/related-product/r-product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/related-product/r-product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/related-product/r-product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/related-product/r-product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/related-product/r-product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/related-product/r-product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/related-product/r-product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/related-product/r-product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/sunglass-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/sunglass-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/sunglass-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/three-column/product-three-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/three-column/product-three-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/three-column/product-three-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/three-column/product-three-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/three-column/product-three-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/three-column/product-three-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/three-column/product-three-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/three-column/product-three-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/three-column/product-three-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/two-column/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/two-column/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/two-column/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/product/two-column/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/img/supper-add-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/full-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/gmaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/smoothscroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/prepros-6.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/product-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/product-details2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/product-details3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_banner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_feature.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_predefin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_shop.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/shopping-cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/shopping-cart2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/track.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/bootstrap-selector/css/bootstrap-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/bootstrap-selector/js/bootstrap-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/counterup/apear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/counterup/countto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/counterup/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/counterup/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/elegant-icon/fonts/ElegantIcons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/elegant-icon/fonts/ElegantIcons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/elegant-icon/fonts/ElegantIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/elegant-icon/fonts/ElegantIcons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/elegant-icon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/full-page/jquery.fullpage.extensions.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/full-page/jquery.fullpage.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/full-page/jquery.fullpage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/image-dropdown/dd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/image-dropdown/flags.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/image-dropdown/jquery.dd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/image-dropdown/skin2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/isotope/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/isotope/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/jquery-ui/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/jquery-ui/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/line-icon/css/simple-line-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/line-icon/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/line-icon/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/line-icon/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/line-icon/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/line-icon/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/magnify-popup/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/magnify-popup/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/owl-carousel/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/owl-carousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/coloredbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/gridtile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/gridtile_3x3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/gridtile_3x3_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/gridtile_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/fb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/fr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/ig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/post.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/revolution_slide1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/revolution_slide2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/tw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/vm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/wc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/sources/yt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/svg/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/assets/svg/svg.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/closedhand.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/layers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/ares.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/dione.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/erinyen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/gyges.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/hades.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/hebe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/hephaistos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/hermes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/hesperiden.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/metis.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/persephone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/uranus.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation-skins/zeus.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/navigation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/openhand.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/settings-ver.5.3.1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/css/settings.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/font-awesome/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/pe-icon-7-stroke/css/helper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/pe-icon-7-stroke/css/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/pe-icon-7-stroke/fonts/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/pe-icon-7-stroke/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/revicons/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/revicons/revicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/revicons/revicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/revicons/revicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/fonts/revicons/revicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/info.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/revolution.extension.actions.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/revolution.extension.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/revolution.extension.migration.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/revolution.extension.navigation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/revolution.extension.parallax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/revolution.extension.video.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/revolution.extension.actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/revolution.extension.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/revolution.extension.kenburn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/revolution.extension.layeranimation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/revolution.extension.migration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/revolution.extension.navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/revolution.extension.parallax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/revolution.extension.slideanims.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/extensions/source/revolution.extension.video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/jquery.themepunch.enablelog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/jquery.themepunch.revolution.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/jquery.themepunch.tools.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/source/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/source/jquery.themepunch.enablelog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/source/jquery.themepunch.revolution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/js/source/jquery.themepunch.tools.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/facebook/class-facebook.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/flickr/class-flickr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/instagram/class-instagram.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/twitter/RestApi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/twitter/class-twitter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/twitter/connection/Application.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/twitter/connection/ConnectionAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/twitter/connection/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/vimeo/class-vimeo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/revolution/php/youtube/class-youtube.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/vertical-slider/css/jQuery.verticalCarousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/vertical-slider/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/persuit/vendors/vertical-slider/js/jQuery.verticalCarousel.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +355,134 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lavoro/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="1697" column="28" selection-start-line="1697" selection-start-column="28" selection-end-line="1735" selection-end-column="61" />
+              <folding>
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/master.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="395" column="17" selection-start-line="395" selection-start-column="17" selection-end-line="395" selection-end-column="17" />
+              <folding>
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lavoro/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="3246" lean-forward="true" selection-start-line="3246" selection-end-line="3246" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,6 +497,8 @@
       <find>lfm</find>
       <find>form-group-shop-product</find>
       <find>login1</find>
+      <find>latop</find>
+      <find>lates</find>
     </findStrings>
     <replaceStrings>
       <replace>type-</replace>
@@ -125,10 +510,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ontap/dequi1.php" />
-        <option value="$PROJECT_DIR$/ontap/dequi2.php" />
-        <option value="$PROJECT_DIR$/ontap/ontapfibonacci.php" />
-        <option value="$PROJECT_DIR$/ontap/uploadanhlaravel.php" />
         <option value="$PROJECT_DIR$/ontap/thamchieuthamtri.php" />
         <option value="$PROJECT_DIR$/ontap/dequimang.php" />
         <option value="$PROJECT_DIR$/ontap/1.html" />
@@ -176,6 +557,10 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/Admin/MenuItemModel.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/public/lavoro/index.html" />
+        <option value="$PROJECT_DIR$/public/lavoro/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/site/master.blade.php" />
       </list>
     </option>
   </component>
@@ -285,13 +670,16 @@
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/kylekatarnls/update-helper" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/client-core" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,6 +702,18 @@
             <path>
               <item name="Thuctapcoso" type="b2602c69:ProjectViewProjectNode" />
               <item name="Thuctapcoso" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="img_product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Thuctapcoso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thuctapcoso" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="lavoro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Thuctapcoso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thuctapcoso" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -321,6 +721,18 @@
               <item name="Thuctapcoso" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Thuctapcoso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thuctapcoso" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Thuctapcoso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thuctapcoso" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,6 +744,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../videosourcecode1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -375,17 +788,22 @@
       <workItem from="1549860912206" duration="14403000" />
       <workItem from="1549887327602" duration="6289000" />
       <workItem from="1575707352434" duration="90000" />
-      <workItem from="1575707465241" duration="382000" />
+      <workItem from="1575707465241" duration="2224000" />
+      <workItem from="1575729306205" duration="2405000" />
+      <workItem from="1575770401906" duration="779000" />
+      <workItem from="1575857532457" duration="4881000" />
+      <workItem from="1575871221063" duration="16321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60830000" />
+    <option name="totallyTimeSpent" value="87058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1732224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -397,9 +815,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -407,84 +825,34 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfigController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ContentPageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ContentPostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ContentTagController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CustomerManagerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ShopBrandController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ShopCategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/content/users/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/glance.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -645,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/layouts/fashion.blade.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/Admin/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -765,6 +1126,156 @@
           <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
           <folding>
             <element signature="e#35#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example" />
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/home/banner.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/site/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/home/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/banner.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lavoro/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="1697" column="28" selection-start-line="1697" selection-start-column="28" selection-end-line="1735" selection-end-column="61" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lavoro/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="3246" lean-forward="true" selection-start-line="3246" selection-end-line="3246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="395" column="17" selection-start-line="395" selection-start-column="17" selection-end-line="395" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
